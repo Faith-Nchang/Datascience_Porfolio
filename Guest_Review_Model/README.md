@@ -6,7 +6,7 @@ This project uses the **Airbnb listings dataset** to predict the **guest review 
 
 ---
 
-## 🎯 Problem Type
+##  Problem Type
 
 * **Type:** Supervised Machine Learning
 * **Category:** Regression
@@ -14,7 +14,7 @@ This project uses the **Airbnb listings dataset** to predict the **guest review 
 
 ---
 
-## 📌 Motivation
+##  Motivation
 
 Predicting guest review scores serves multiple important business purposes:
 
@@ -23,7 +23,7 @@ Predicting guest review scores serves multiple important business purposes:
 * **Host Coaching**: Hosts with predicted low ratings can receive guidance to improve service quality.
 * **Revenue and Retention**: High-quality stays lead to better reviews, fewer refunds, more returning users, and stronger brand reputation.
 
-## 🧠 Features Used
+##  Features Used
 
 All columns in the dataset were used **except** the following:
 
@@ -34,14 +34,14 @@ All columns in the dataset were used **except** the following:
 * Target column `review_scores_ratings` was excluded from the features during model training.
 
 
-## 🔨 Models Used
+##  Models Used
 
 * **Baseline Model**: Linear Regression
 * **Improved Model**: Random Forest Regressor
 
   * **Tuning**: Performed hyperparameter optimization using **GridSearchCV**
 
-## 🛠️ Tools & Libraries
+##  Tools & Libraries
 
 * Python
 * Pandas, NumPy
@@ -49,7 +49,7 @@ All columns in the dataset were used **except** the following:
 * Matplotlib / Seaborn (for visualization)
 
 
-## 📈 Future Work
+##  Future Work
 
 * Feature engineering (e.g., extracting useful info from `amenities`, text embeddings for descriptions)
 * Model ensembling
@@ -57,7 +57,7 @@ All columns in the dataset were used **except** the following:
 * Deployment as a web app for real-time predictions
 
 
-## ✨ Outcome
+##  Outcome
 
 Using Random Forest and hyperparameter tuning, model performance significantly improved over the linear regression baseline, yielding better predictions on guest review scores and paving the way for practical application on platforms like Airbnb.
 
